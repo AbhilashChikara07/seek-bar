@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.okutech.seekbarexample.MainActivity">
+
+    <com.example.okutech.seekbarexample.PriceSeekBar
+        android:id="@+id/priceBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="40dp"
+        app:left_thumb_image="@mipmap/ic_scroll_icon_unselected"
+        app:max_value="100000"
+        app:min_value="12000"
+        app:right_thumb_image="@mipmap/ic_scroll_icon_unselected"
+        app:bar_color="@color/color_f6f6f6"
+        app:bar_highlight_color="@color/red_dark"
+        app:corner_radius="20"
+        app:gap="5000"
+/>
+
+</LinearLayout>
+
