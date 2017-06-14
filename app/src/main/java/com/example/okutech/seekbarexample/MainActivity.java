@@ -9,6 +9,12 @@ public class MainActivity extends AppCompatActivity {
     private int price_min_value;
     private int price_max_value;
 
+
+//Main Link for seekbar--
+//    http://codingsignals.com/crystal-range-seekbar-in-android/
+//    https://github.com/syedowaisali/crystal-range-seekbar
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
